@@ -16,8 +16,8 @@ $(document).ready(function(){
           768 : {
               items: 1
           },
-          960 : {
-              items: 3
+          1000 : {
+              items: 2
           },
           1200 : {
               items: 3

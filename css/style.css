@@ -93,3 +93,11 @@ a {
 .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
