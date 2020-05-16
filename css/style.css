@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#testimonial {
+    background: #F63854;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.testimonial-item {
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.img-thumb {
+    margin: 15px;
+    text-align: center;
+}
+
+.img-thumb img {
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+    width: inherit !important;
+    margin: auto;
+}
+
+.info h2 a,
+.info h3 a {
+    color: #333;
+}
+
+.info h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 30px;
+    margin: 0;
+}
+
+.info h3 {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.description p {
+    color: #333;
+}
+
+.star-icon span i {
+    color: #F63854;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #F63854;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 20px;
+}
