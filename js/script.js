@@ -1,8 +1,9 @@
 $(document).ready(function(){
+    
   $(".owl-carousel").owlCarousel({
       loop: true,
       dots: true,
-      margin: 10,
+      margin: 15,
       slideSpeed: 1000,
       autoplay: true,
       autoplayTimeout: 3000,
@@ -14,7 +15,7 @@ $(document).ready(function(){
               items: 1
           },
           768 : {
-              items: 1
+              items: 2
           },
           1000 : {
               items: 2
@@ -27,11 +28,8 @@ $(document).ready(function(){
           }
       }
   });  
-    
 
-  wow = new WOW({
-                    mobile: false
-                });
+  wow = new WOW();
   wow.init();
     
 });
